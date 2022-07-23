@@ -109,9 +109,21 @@ body {
 
 .link-one::before {
   content: '';
-
+  display: inline-block;
   width: 16px;
   height: 12px;
+}
+
+.link-two::before {
+  content: '';
+  display: inline-block;
+  height: 16px;
+}
+
+.link-two::before {
+  background-image: url(../images/sprite.svg#icon-tel);
+  margin-right: 10px;
+  color: currentColor;
 }
 
 .link-one::before {

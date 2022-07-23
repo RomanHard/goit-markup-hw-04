@@ -91,7 +91,8 @@ body {
 }
 
 .menu-list:not(:last-child) {
-  margin-right: 50px;
+  margin-right: 30px;
+  color: var(--four-text-color);
 }
 
 .number-link {
@@ -101,12 +102,26 @@ body {
   margin-left: auto;
 }
 
-.link:hover,
-.link:focus {
+.link-one::before {
+  content: '';
+
+  width: 16px;
+  height: 12px;
+}
+
+.link-one::before {
+  background-image: url(../images/sprite.svg#icon-mail);
+  margin-right: 10px;
+  color: currentColor;
+}
+.link,
+.link-number:hover,
+.link,
+.link-number:focus {
   color: var(--two-text-color);
 }
 
-.link-one {
+.link-number {
   padding: 32px 0;
   display: block;
   font-size: 14px;
@@ -114,7 +129,6 @@ body {
   letter-spacing: 0.02em;
   font-weight: 500;
   margin-left: auto;
-  margin-right: 40px;
   color: var(--four-text-color);
 }
 

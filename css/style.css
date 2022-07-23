@@ -118,6 +118,7 @@ body {
   content: '';
   display: inline-block;
   height: 16px;
+  width: 10px;
 }
 
 .link-two::before {

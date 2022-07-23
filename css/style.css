@@ -95,6 +95,11 @@ body {
   color: var(--four-text-color);
 }
 
+.menu-list-number:not(:last-child) {
+  margin-right: 30px;
+  color: var(--four-text-color);
+}
+
 .number-link {
   display: flex;
   align-items: center;

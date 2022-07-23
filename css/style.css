@@ -314,6 +314,34 @@ body {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
+
+.social-list {
+  display: flex;
+  margin-top: 16px;
+  justify-content: center;
+}
+
+.social-list-link {
+  color: #afb1b8;
+  display: block;
+  height: 40px;
+  width: 40px;
+}
+.social-list-item {
+  margin-right: 10px;
+}
+
+.social-list-icon-svg {
+  fill: currentColor;
+  width: 20px;
+  height: 20px;
+}
+
+.social-list-link:hover,
+.social-list-link:focus {
+  background-color: var(--two-text-color);
+  color: var(--five-text-color);
+}
 /* =======/PORTFOLIO======== */
 
 /* =======FOTER======== */

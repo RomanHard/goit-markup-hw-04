@@ -112,6 +112,9 @@ body {
   display: inline-block;
   width: 16px;
   height: 12px;
+  background-image: url(../images/sprite.svg#icon-mail);
+  margin-right: 10px;
+  color: currentColor;
 }
 
 .link-two::before {
@@ -119,19 +122,11 @@ body {
   display: inline-block;
   height: 16px;
   width: 10px;
-}
-
-.link-two::before {
   background-image: url(../images/sprite.svg#icon-tel);
   margin-right: 10px;
   color: currentColor;
 }
 
-.link-one::before {
-  background-image: url(../images/sprite.svg#icon-mail);
-  margin-right: 10px;
-  color: currentColor;
-}
 .link,
 .link-number:hover,
 .link,
@@ -302,6 +297,8 @@ body {
 .filter-list:hover {
   background: var(--two-text-color);
   color: var(--five-text-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .list {
@@ -478,6 +475,11 @@ body {
   flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
   margin-top: 30px;
+}
+.example:focus,
+.example:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .color-footer {

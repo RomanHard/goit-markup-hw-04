@@ -110,6 +110,7 @@ body {
 .link-one::before {
   content: '';
   display: inline-block;
+  align-items: center;
   width: 16px;
   height: 12px;
   background-image: url(../images/sprite.svg#icon-mail);
